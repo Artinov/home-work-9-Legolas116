@@ -8,6 +8,7 @@ function goDiscoTrue() {
 		ball.setAttribute("class", "discoball " + classes[i]);
 		i++;
 		if (i > 5)	{i = 0;}
+	
 }
 
 setInterval(goDiscoTrue,300);
